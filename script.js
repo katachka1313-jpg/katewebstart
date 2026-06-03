@@ -102,7 +102,7 @@ if (form && formMessage) {
     setFormMessage("", "");
 
     try {
-      const response = await fetch("/.netlify/functions/send-telegram", {
+      const response = await fetch("https://katewebstart-form.katachka1313.workers.dev", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -119,7 +119,7 @@ if (form && formMessage) {
       }
 
       form.reset();
-      setFormMessage("Спасибо! Заявка отправлена. Я свяжусь с вами в ближайшее время.", "success");
+      setFormMessage("Спасибо! Заявка отправлена. Я скоро свяжусь с вами.", "success");
     } catch (error) {
       setFormMessage("Не удалось отправить заявку. Попробуйте ещё раз или напишите мне напрямую в Telegram.", "error");
     } finally {
