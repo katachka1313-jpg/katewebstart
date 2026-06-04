@@ -84,7 +84,9 @@ if (form && formMessage) {
 
     const formData = new FormData(form);
     const name = String(formData.get("name") || "").trim();
-    const contact = String(formData.get("contact") || "").trim();
+    const contact = String(
+      formData.get("contact") || formData.get("phone") || formData.get("tel") || formData.get("email") || "",
+    ).trim();
     const message = String(formData.get("message") || "").trim();
     const fields = [...form.querySelectorAll("input, textarea")];
 
