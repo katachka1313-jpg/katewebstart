@@ -129,7 +129,7 @@ img {
 
 .section {
   position: relative;
-  padding: 94px 0;
+  padding: 72px 0;
 }
 
 .section::before {
@@ -159,7 +159,7 @@ img {
 }
 
 .header-inner {
-  min-height: 76px;
+  min-height: 66px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -366,11 +366,12 @@ img {
 }
 
 .hero {
-  min-height: 760px;
+  min-height: 620px;
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding-top: 86px;
+  padding-top: 42px;
+  padding-bottom: 42px;
 }
 
 .hero::before {
@@ -405,12 +406,12 @@ img {
 .hero-grid {
   position: relative;
   z-index: 1;
-  width: min(100%, 1080px);
+  width: min(100%, 1160px);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(340px, 0.82fr);
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.72fr);
   align-items: center;
-  gap: 54px;
+  gap: 40px;
 }
 
 .eyebrow {
@@ -441,17 +442,17 @@ p {
 }
 
 h1 {
-  max-width: 850px;
-  margin-bottom: 24px;
-  font-size: clamp(36px, 6vw, 68px);
+  max-width: 760px;
+  margin-bottom: 18px;
+  font-size: clamp(32px, 4.2vw, 48px);
   line-height: 1.05;
   letter-spacing: 0;
   text-wrap: balance;
 }
 
 h2 {
-  margin-bottom: 18px;
-  font-size: clamp(34px, 5vw, 56px);
+  margin-bottom: 14px;
+  font-size: clamp(28px, 3.8vw, 42px);
   line-height: 1.05;
   letter-spacing: 0;
   text-wrap: balance;
@@ -474,17 +475,17 @@ h3 {
 
 .hero-text {
   max-width: 640px;
-  margin-bottom: 34px;
+  margin-bottom: 22px;
   color: var(--muted-strong);
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .hero-brand-img {
-  width: min(520px, 100%);
+  width: min(420px, 100%);
   height: auto;
   display: block;
   object-fit: contain;
-  margin: 0 0 22px;
+  margin: 0 0 16px;
   opacity: 0.92;
   filter:
     drop-shadow(0 18px 42px rgba(0, 0, 0, 0.3))
@@ -493,7 +494,7 @@ h3 {
 
 .hero-note {
   max-width: 560px;
-  margin: 24px 0 0;
+  margin: 16px 0 0;
   color: var(--muted);
   font-size: 15px;
 }
@@ -506,11 +507,11 @@ h3 {
 }
 
 .btn {
-  min-height: 50px;
+  min-height: 46px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 14px 22px;
+  padding: 12px 20px;
   border: 1px solid transparent;
   border-radius: 999px;
   font-weight: 850;
@@ -548,14 +549,14 @@ h3 {
 .hero-benefits {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  margin: 26px 0 0;
+  gap: 10px;
+  margin: 18px 0 0;
   padding: 0;
   list-style: none;
 }
 
 .hero-benefits li {
-  padding: 10px 15px;
+  padding: 8px 13px;
   background: rgba(255, 255, 255, 0.07);
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -610,13 +611,13 @@ h3 {
 .project-panel {
   position: relative;
   overflow: hidden;
-  padding: 18px 18px 24px;
+  padding: 14px 14px 18px;
   background:
     linear-gradient(145deg, rgba(255, 255, 255, 0.12), transparent 32%),
     linear-gradient(180deg, rgba(34, 197, 94, 0.08), transparent 52%),
     rgba(21, 26, 31, 0.88);
   border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 30px;
+  border-radius: 26px;
   box-shadow:
     0 30px 82px rgba(0, 0, 0, 0.42),
     0 0 62px rgba(34, 197, 94, 0.12),
@@ -655,8 +656,8 @@ h3 {
 
 .browser-bar {
   position: relative;
-  margin-bottom: 18px;
-  padding: 12px 14px;
+  margin-bottom: 12px;
+  padding: 9px 12px;
   background: rgba(255, 255, 255, 0.055);
   border: 1px solid rgba(255, 255, 255, 0.09);
   border-radius: 18px;
@@ -704,10 +705,10 @@ h3 {
   position: relative;
   display: grid;
   grid-template-columns: 1.25fr 0.75fr;
-  gap: 14px;
-  min-height: 206px;
-  margin: 22px 0 18px;
-  padding: 16px;
+  gap: 10px;
+  min-height: 160px;
+  margin: 14px 0 12px;
+  padding: 12px;
   background:
     radial-gradient(circle at 18% 12%, rgba(34, 197, 94, 0.28), transparent 12rem),
     rgba(255, 255, 255, 0.055);
@@ -725,9 +726,9 @@ h3 {
 .mockup-hero {
   display: grid;
   align-content: end;
-  gap: 10px;
-  min-height: 174px;
-  padding: 16px;
+  gap: 8px;
+  min-height: 132px;
+  padding: 12px;
   background:
     linear-gradient(145deg, rgba(34, 197, 94, 0.24), transparent 50%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.035));
@@ -746,7 +747,7 @@ h3 {
 
 .mockup-hero span:first-child {
   width: 72%;
-  height: 16px;
+  height: 12px;
   background: rgba(255, 255, 255, 0.82);
 }
 
@@ -757,8 +758,8 @@ h3 {
 .mockup-hero i,
 .preview-copy b,
 .preview-booking {
-  width: 86px;
-  height: 30px;
+  width: 74px;
+  height: 24px;
   display: block;
   background: var(--green);
   border-radius: 999px;
@@ -768,14 +769,14 @@ h3 {
 .mockup-sidebar {
   display: grid;
   align-content: start;
-  gap: 12px;
-  padding: 15px;
+  gap: 9px;
+  padding: 12px;
   background: rgba(255, 255, 255, 0.045);
 }
 
 .mockup-sidebar span:first-child {
   width: 78%;
-  height: 46px;
+  height: 34px;
   background: rgba(34, 197, 94, 0.18);
   border: 1px solid rgba(34, 197, 94, 0.22);
   border-radius: 14px;
@@ -793,13 +794,13 @@ h3 {
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  padding: 12px;
+  gap: 8px;
+  padding: 9px;
   background: rgba(255, 255, 255, 0.035);
 }
 
 .mockup-cards span {
-  height: 42px;
+  height: 30px;
   background: rgba(255, 255, 255, 0.09);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 13px;
@@ -808,15 +809,15 @@ h3 {
 .panel-lines {
   position: relative;
   display: grid;
-  gap: 12px;
-  margin: 0 0 20px;
+  gap: 9px;
+  margin: 0 0 14px;
 }
 
 .panel-row {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 13px 14px;
+  gap: 10px;
+  padding: 10px 12px;
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
@@ -862,7 +863,7 @@ h3 {
 
 .section-head {
   max-width: 760px;
-  margin: 0 auto 50px;
+  margin: 0 auto 36px;
   text-align: center;
 }
 
@@ -925,7 +926,7 @@ h3 {
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 20px;
+  gap: 16px;
 }
 
 .works-grid,
@@ -971,14 +972,14 @@ h3 {
 .service-card,
 .step-card,
 .price-card {
-  padding: 26px;
+  padding: 22px;
 }
 
 .card-mark {
-  width: 40px;
-  height: 40px;
+  width: 34px;
+  height: 34px;
   display: inline-block;
-  margin-bottom: 26px;
+  margin-bottom: 18px;
   background:
     linear-gradient(var(--green), var(--green)) center / 16px 2px no-repeat,
     linear-gradient(var(--green), var(--green)) center / 2px 16px no-repeat,
@@ -1002,8 +1003,8 @@ h3 {
 .work-preview {
   position: relative;
   overflow: visible;
-  min-height: 218px;
-  padding: 22px;
+  min-height: 174px;
+  padding: 14px;
   background:
     radial-gradient(circle at 15% 10%, rgba(255, 255, 255, 0.12), transparent 13rem),
     radial-gradient(circle at 85% 85%, rgba(34, 197, 94, 0.22), transparent 15rem),
@@ -1033,8 +1034,9 @@ h3 {
 .preview-browser {
   position: relative;
   z-index: 1;
-  height: 174px;
-  padding: 11px;
+  aspect-ratio: 16 / 8.4;
+  min-height: 130px;
+  padding: 9px;
   background: rgba(8, 10, 12, 0.66);
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 18px;
@@ -1068,8 +1070,8 @@ h3 {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center center;
 }
 
 .work-mobile-mockup {
@@ -1093,8 +1095,8 @@ h3 {
   width: 100%;
   aspect-ratio: 9 / 16;
   display: block;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center center;
 }
 
 .estate-layout {
@@ -1257,12 +1259,12 @@ h3 {
   flex-direction: column;
   min-height: 0;
   gap: 0;
-  padding: 28px;
+  padding: 22px;
 }
 
 .work-body h3 {
-  min-height: 54px;
-  margin-bottom: 14px;
+  min-height: 44px;
+  margin-bottom: 10px;
 }
 
 .work-body > p:not(.work-type) {
@@ -1298,9 +1300,9 @@ h3 {
 
 .case-showcase {
   position: relative;
-  max-width: 1020px;
-  margin: 0 auto 42px;
-  padding: 22px 118px 54px 0;
+  max-width: 860px;
+  margin: 0 auto 28px;
+  padding: 12px 94px 34px 0;
 }
 
 .mockup-window {
@@ -1316,8 +1318,8 @@ h3 {
   display: flex;
   align-items: center;
   gap: 8px;
-  height: 34px;
-  padding: 0 14px;
+  height: 28px;
+  padding: 0 12px;
   background: rgba(255, 255, 255, 0.065);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1335,15 +1337,15 @@ h3 {
 }
 
 .case-desktop {
-  border-radius: 28px;
+  border-radius: 22px;
 }
 
 .case-desktop img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 8.4;
   display: block;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center center;
   transition: transform 0.4s ease;
 }
 
@@ -1351,22 +1353,22 @@ h3 {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: min(245px, 30vw);
-  max-width: 220px;
-  border-radius: 26px;
+  width: min(210px, 26vw);
+  max-width: 190px;
+  border-radius: 22px;
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.48), 0 0 0 1px rgba(34, 197, 94, 0.12);
 }
 
 .case-mobile .mockup-window-bar {
-  height: 28px;
+  height: 24px;
 }
 
 .case-mobile img {
   width: 100%;
   aspect-ratio: 9 / 16;
   display: block;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center center;
   transition: transform 0.4s ease;
 }
 
@@ -1377,8 +1379,8 @@ h3 {
 .case-details {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
-  margin-top: 24px;
+  gap: 16px;
+  margin-top: 18px;
 }
 
 .case-detail-card {
@@ -1391,8 +1393,9 @@ h3 {
 }
 
 .case-image {
+  aspect-ratio: 16 / 7.6;
   overflow: hidden;
-  margin: 0 0 22px;
+  margin: 0 0 14px;
   background: rgba(255, 255, 255, 0.055);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 18px;
@@ -1400,29 +1403,29 @@ h3 {
 
 .case-image img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 100%;
   display: block;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center center;
   border-radius: 18px;
   transition: transform 0.4s ease;
 }
 
 .case-detail-card {
-  padding: 20px;
+  padding: 16px;
 }
 
 .case-detail-card:hover .case-image img {
-  transform: scale(1.035);
+  transform: scale(1.015);
 }
 
 .case-done {
   display: grid;
   grid-template-columns: 0.45fr 1fr;
-  gap: 28px;
+  gap: 20px;
   align-items: center;
-  margin-top: 22px;
-  padding: 30px;
+  margin-top: 18px;
+  padding: 22px;
   background:
     radial-gradient(circle at 0% 0%, rgba(34, 197, 94, 0.15), transparent 18rem),
     linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.035)),
@@ -1436,19 +1439,19 @@ h3 {
 .case-done-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 
 .case-done-list span {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  padding: 9px 12px;
+  padding: 7px 10px;
   background: rgba(255, 255, 255, 0.065);
   border: 1px solid var(--border);
   border-radius: 999px;
   color: #e7edf2;
-  font-size: 14px;
+  font-size: 13px;
   transition: transform 0.22s ease, border-color 0.22s ease, background 0.22s ease;
 }
 
@@ -1476,10 +1479,10 @@ h3 {
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 7px;
   margin-top: auto;
-  margin-bottom: 22px;
-  padding-top: 24px;
+  margin-bottom: 16px;
+  padding-top: 16px;
 }
 
 .tags span,
@@ -1542,12 +1545,12 @@ h3 {
 }
 
 .included-grid div {
-  min-height: 76px;
+  min-height: 58px;
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 18px;
-  border-radius: 18px;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 16px;
   color: #e7edf2;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.07);
   transition: transform 0.22s ease, border-color 0.22s ease, background 0.22s ease;
@@ -1571,14 +1574,14 @@ h3 {
 .process-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 20px;
+  gap: 16px;
 }
 
 .step-card span {
   display: block;
-  margin-bottom: 34px;
+  margin-bottom: 20px;
   color: var(--green);
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 900;
   line-height: 1;
   text-shadow: 0 0 28px rgba(34, 197, 94, 0.28);
@@ -1611,17 +1614,17 @@ h3 {
 }
 
 .price {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   color: var(--text);
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 900;
   line-height: 1.1;
 }
 
 .price-card ul {
   display: grid;
-  gap: 10px;
-  margin: 24px 0 28px;
+  gap: 8px;
+  margin: 18px 0 22px;
   padding: 0;
   color: var(--muted);
   list-style: none;
@@ -1727,7 +1730,7 @@ h3 {
 }
 
 .cta-section {
-  padding-top: 78px;
+  padding-top: 58px;
 }
 
 .cta-section .container {
@@ -1740,9 +1743,9 @@ h3 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  gap: 36px;
+  gap: 28px;
   margin: 0 auto;
-  padding: 42px 48px;
+  padding: 32px 40px;
   background:
     radial-gradient(circle at 86% 32%, rgba(34, 197, 94, 0.3), transparent 18rem),
     radial-gradient(circle at 72% 52%, rgba(34, 197, 94, 0.12), transparent 13rem),
@@ -1750,7 +1753,7 @@ h3 {
     linear-gradient(135deg, rgba(255, 255, 255, 0.075), rgba(34, 197, 94, 0.07)),
     var(--surface);
   border: 1px solid rgba(34, 197, 94, 0.24);
-  border-radius: 30px;
+  border-radius: 26px;
   box-shadow:
     0 28px 88px rgba(34, 197, 94, 0.1),
     var(--shadow),
@@ -1794,8 +1797,8 @@ h3 {
 }
 
 .cta-box h2 {
-  margin-bottom: 12px;
-  font-size: clamp(32px, 4vw, 54px);
+  margin-bottom: 10px;
+  font-size: clamp(28px, 3.5vw, 42px);
   line-height: 1.08;
 }
 
@@ -1803,10 +1806,10 @@ h3 {
   position: relative;
   z-index: 1;
   min-width: 220px;
-  min-height: 68px;
-  padding: 20px 32px;
+  min-height: 58px;
+  padding: 16px 28px;
   color: #041107;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 850;
   letter-spacing: 0;
   text-align: center;
@@ -1829,7 +1832,7 @@ h3 {
 .contacts-grid {
   display: grid;
   grid-template-columns: 0.88fr 1fr;
-  gap: 48px;
+  gap: 34px;
   align-items: start;
 }
 
@@ -1856,8 +1859,8 @@ h3 {
 
 .contact-form {
   display: grid;
-  gap: 18px;
-  padding: 30px;
+  gap: 14px;
+  padding: 24px;
   background:
     radial-gradient(circle at 80% 0%, rgba(34, 197, 94, 0.14), transparent 14rem),
     linear-gradient(180deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.035)),
@@ -1878,7 +1881,7 @@ h3 {
   border: 1px solid var(--border);
   border-radius: 16px;
   color: var(--text);
-  padding: 14px 16px;
+  padding: 12px 14px;
   outline: none;
   transition: border-color 0.22s ease, background 0.22s ease, box-shadow 0.22s ease;
 }
@@ -1915,7 +1918,7 @@ h3 {
 .site-footer {
   position: relative;
   overflow: hidden;
-  padding: 52px 0 24px;
+  padding: 40px 0 18px;
   border-top: 1px solid var(--border);
   background:
     radial-gradient(circle at 16% 0%, rgba(34, 197, 94, 0.18), transparent 19rem),
@@ -1945,7 +1948,7 @@ h3 {
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: start;
   justify-content: space-between;
-  gap: 32px;
+  gap: 24px;
   max-width: 1120px;
 }
 
@@ -1998,10 +2001,10 @@ h3 {
   z-index: 1;
   width: 100%;
   max-width: min(1120px, calc(100% - 48px));
-  margin: 28px auto 0;
+  margin: 20px auto 0;
   overflow: hidden;
   color: rgba(255, 255, 255, 0.16);
-  font-size: clamp(38px, 7.2vw, 96px);
+  font-size: clamp(34px, 6.4vw, 78px);
   line-height: 0.84;
   letter-spacing: -0.04em;
   text-align: center;
@@ -2077,7 +2080,7 @@ h3 {
   }
 
   .section {
-    padding: 68px 0;
+    padding: 52px 0;
   }
 
   .hero::before {
@@ -2102,7 +2105,7 @@ h3 {
 
   .nav {
     position: fixed;
-    top: 76px;
+    top: 66px;
     left: 14px;
     right: 14px;
     display: grid;
@@ -2134,11 +2137,12 @@ h3 {
   }
 
   .hero {
-    padding-top: 56px;
+    padding-top: 34px;
+    padding-bottom: 34px;
   }
 
   .hero-grid {
-    gap: 44px;
+    gap: 28px;
   }
 
   .hero-text {
@@ -2165,15 +2169,15 @@ h3 {
 
   .case-showcase {
     display: block;
-    padding: 0 0 72px;
+    padding: 0 0 54px;
   }
 
   .case-mobile {
     position: absolute;
     right: 10px;
     bottom: 22px;
-    width: clamp(150px, 42vw, 210px);
-    max-width: 44%;
+    width: clamp(130px, 38vw, 180px);
+    max-width: 40%;
     margin-top: 0;
     transform: none;
     transform-origin: bottom right;
@@ -2194,13 +2198,13 @@ h3 {
   }
 
   .section-head {
-    margin-bottom: 34px;
+    margin-bottom: 26px;
     text-align: left;
   }
 
   .service-card {
     min-height: auto;
-    padding: 22px 22px 24px;
+    padding: 18px;
   }
 
   .service-card .card-mark {
@@ -2223,12 +2227,12 @@ h3 {
 
   .step-card {
     min-height: auto;
-    padding: 22px 22px 24px;
+    padding: 18px;
   }
 
   .step-card span {
-    margin-bottom: 18px;
-    font-size: 28px;
+    margin-bottom: 14px;
+    font-size: 24px;
   }
 
   .cta-box,
@@ -2239,15 +2243,15 @@ h3 {
 
   .cta-box {
     grid-template-columns: 1fr;
-    gap: 26px;
-    padding: 28px;
+    gap: 18px;
+    padding: 22px;
   }
 
   .cta-box .btn {
     width: 100%;
     min-width: 0;
-    min-height: 58px;
-    padding: 16px 24px;
+    min-height: 50px;
+    padding: 13px 20px;
     font-size: 17px;
   }
 
@@ -2262,11 +2266,11 @@ h3 {
   }
 
   h1 {
-    font-size: 38px;
+    font-size: 32px;
   }
 
   h2 {
-    font-size: 34px;
+    font-size: 28px;
   }
 
   .logo {
@@ -2299,15 +2303,15 @@ h3 {
 
   .hero-brand-img {
     width: 100%;
-    max-width: 360px;
-    margin-bottom: 22px;
+    max-width: 280px;
+    margin-bottom: 14px;
   }
 
   .footer-signature {
     width: 100%;
     max-width: calc(100vw - 24px);
-    margin-top: 24px;
-    font-size: clamp(32px, 13vw, 64px);
+    margin-top: 16px;
+    font-size: clamp(28px, 11vw, 52px);
     opacity: 0.9;
   }
 
@@ -2320,23 +2324,23 @@ h3 {
   .price-card,
   .work-body,
   .contact-form {
-    padding: 22px;
+    padding: 18px;
   }
 
   .service-card,
   .step-card {
-    padding: 20px;
+    padding: 16px;
   }
 
   .service-card .card-mark {
-    width: 32px;
-    height: 32px;
-    margin-bottom: 16px;
+    width: 28px;
+    height: 28px;
+    margin-bottom: 12px;
   }
 
   .step-card span {
-    margin-bottom: 16px;
-    font-size: 26px;
+    margin-bottom: 12px;
+    font-size: 22px;
   }
 
   .work-body h3 {
@@ -2344,16 +2348,16 @@ h3 {
   }
 
   .project-panel {
-    padding: 14px 14px 20px;
+    padding: 12px 12px 16px;
   }
 
   .work-preview {
-    min-height: 184px;
-    padding: 16px;
+    min-height: 144px;
+    padding: 12px;
   }
 
   .preview-browser {
-    height: 152px;
+    min-height: 112px;
   }
 
   .work-mobile-mockup {
@@ -2371,14 +2375,19 @@ h3 {
   .case-mobile {
     right: 6px;
     bottom: 18px;
-    width: clamp(145px, 46vw, 185px);
-    max-width: 48%;
+    width: clamp(120px, 40vw, 160px);
+    max-width: 42%;
     margin-top: 0;
   }
 
   .case-detail-card,
   .case-done {
-    padding: 20px;
+    padding: 16px;
+  }
+
+  .case-image {
+    aspect-ratio: 16 / 8.8;
+    margin-bottom: 16px;
   }
 
   .panel-top,
