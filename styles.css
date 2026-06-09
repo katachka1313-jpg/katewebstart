@@ -1673,6 +1673,14 @@ h3 {
   margin-top: 0;
 }
 
+.pricing-payment-note {
+  max-width: 680px;
+  margin: 28px auto 0;
+  color: var(--muted);
+  font-size: 15px;
+  text-align: center;
+}
+
 .pricing-process {
   margin-top: 38px;
   padding: 26px;
